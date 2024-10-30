@@ -1,0 +1,94 @@
+.betteramazonapiadmin .widefat td p {
+	font-size: 1.2em;
+}
+
+/* begin css tabs */
+
+ul#tabnav { /* general settings */
+text-align: left; /* set to left, right or center */
+margin: 1em 0 1em 0; /* set margins as desired */
+font: bold 11px verdana, arial, sans-serif; /* set font as desired */
+border-bottom: 1px solid #464646; /* set border COLOR as desired */
+list-style-type: none;
+padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul#tabnav li { /* do not change */
+display: inline;
+}
+
+ul#tabnav li a { 		/* settings for all tab links */
+padding: 3px 4px; 		/* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+border: 1px solid #464646; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+background-color: #E3E3E3; /* set unselected tab background color as desired */
+color: #666; 			/* set unselected tab link color as desired */
+margin-right: 0px; 		/* set additional spacing between tabs as desired */
+text-decoration: none;
+border-bottom: none;
+}
+
+ul#tabnav a:hover { /* settings for hover effect */
+background: #fff; 		/* set desired hover color */
+}
+ 
+ul#tabnav li a.highlighted { /* settings for hover effect */
+background: #fff; 		/* set desired hover color */
+border-bottom: 1px solid #fff;
+}
+
+ul#tabnav li a.highlighted-external {
+	background: #00aa00;
+	color: #FFFFFF;
+} 
+ul#tabnav li a.highlighted-external:hover {
+	background: #FFFFFF;
+	color: #00aa00;
+} 
+
+ul.secondTabs {
+	margin: 0;
+}
+
+ul.secondTabs li {
+	display: inline;
+	margin: 0 0 0 0px;
+/*	padding: 2px 6px 0 6px;
+	border-color: #DBDBDB #DBDBDB white;
+	border-style: solid;
+	border-width: 1px;*/
+}
+
+ul.secondTabs li a { 		/* settings for all tab links */
+padding: 3px 4px; 		/* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+border: 1px solid #DFDFDF; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+background-color: #FFFFFF; /* set unselected tab background color as desired */
+color: #666; 			/* set unselected tab link color as desired */
+margin-right: 0px; 		/* set additional spacing between tabs as desired */
+text-decoration: none;
+border-bottom: none;
+}
+
+ul.secondTabs a:hover { /* settings for hover effect */
+background: #DFDFDF; 		/* set desired hover color */
+}
+ 
+ul.secondTabs li a.highlighted { /* settings for hover effect */
+background: #fff; 		/* set desired hover color */
+border-bottom: 1px solid #fff;
+}
+ 
+/* end css tabs */
+
+.betteramazonapibox {
+	float: left;
+	width: 55%;
+	border: 1px solid #DFDFDF;
+	padding: 10px;
+	margin: 0 20px 20px 0;
+}
+
+.betteramazonapiwarning {
+	border: 1px solid #FF0000;
+	background-color: #FFDFDF;
+	padding: 10px;
+}

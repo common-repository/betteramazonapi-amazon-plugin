@@ -1,0 +1,61 @@
+div.betteramazonfeed
+, div.betteramazonfeed h1
+, div.betteramazonfeed h2
+, div.betteramazonfeed h3
+, div.betteramazonfeed h4
+, div.betteramazonfeed h5
+, div.betteramazonfeed h6
+, div.betteramazonfeedwidget
+, div.betteramazonfeedwidget h1
+, div.betteramazonfeedwidget h2
+, div.betteramazonfeedwidget h3
+, div.betteramazonfeedwidget h4
+, div.betteramazonfeedwidget h5
+, div.betteramazonfeedwidget h6
+{
+	margin: 0;
+	padding: 0 0 6px 0;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+div.betteramazonfeed div, div.betteramazonfeedwidget div {
+	display: block;
+	text-indent: 0;
+	position: relative;
+	margin: 4px 0 6px 10px;
+	float: left;
+	font-size: 1em;
+	width: 100%;
+}
+
+div.betteramazonfeed div a, div.betteramazonfeedwidget div a {
+	position: relative;
+	margin: 0;
+	padding: 4px 10px 0px 0px;
+	text-decoration: none;
+	display: block;
+	clear: both;
+}
+
+div.betteramazonfeed div a img, div.betteramazonfeedwidget div a img {
+	float: left;
+	display: inline;
+	position: relative;
+	margin: 0 10px 10px 0;
+
+}
+
+div.betteramazonfeed div .betteramazonfeed-product-title, 
+div.betteramazonfeedwidget div .betteramazonfeed-product-title {
+	text-align: left;
+}
+
+.clear {
+	width: 100%;
+}
+
+div.betteramazonfeed div a.readmorelink, div.betteramazonfeedwidget div a.readmorelink {
+	display: inline;
+}
